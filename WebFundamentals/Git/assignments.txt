@@ -1,0 +1,62 @@
+Command + spacebar
+
+cd desktop
+
+mkdir DojoAssignments
+
+cd DojoAssignments
+
+mkdir Webfundamentals Python MEAN Ruby iOS netCore
+
+cd WebFundamentals ; touch about.txt ; cd .. ; cd Python ; touch about.txt ; cd .. ; cd MEAN ; touch about.txt ; cd .. ; cd Ruby ; touch about.txt ; cd .. ; cd iOS; touch about.txt ; cd .. ; cd netCore ; touch about.txt ; cd .. 
+
+cd Webfundamentals ; mkdir Git HTML CSS Javascript
+
+cd Git ; touch about.txt ; cd .. ; cd HTML ; touch about.txt ; cd .. ; cd CSS ; touch about.txt ; cd .. ; cd Javascript ; touch about.txt ; cd ..
+
+cd HTML ; mkdir indentation.html ; cd .. 
+
+cd .. ; 
+
+Brians-MacBook-Pro:DojoAssignments brianarmstrong$ ls -R
+MEAN		Ruby		iOS
+Python		Webfundamentals	netCore
+
+./MEAN:
+about.txt
+
+./Python:
+about.txt
+
+./Ruby:
+about.txt
+
+./Webfundamentals:
+CSS		Git		HTML		Javascript	about.txt
+
+./Webfundamentals/CSS:
+about.txt
+
+./Webfundamentals/Git:
+about.txt
+
+./Webfundamentals/HTML:
+about.txt		indentation.html
+
+./Webfundamentals/HTML/indentation.html:
+
+./Webfundamentals/Javascript:
+about.txt
+
+./iOS:
+about.txt
+
+./netCore:
+about.txt
+
+
+
+
+
+
+

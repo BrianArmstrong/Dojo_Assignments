@@ -1,0 +1,43 @@
+Brians-MacBook-Pro:desktop brianarmstrong$ mkdir GitHubRepoAssignment
+Brians-MacBook-Pro:desktop brianarmstrong$ cd GitHubRepoAssignment
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$ git init
+Initialized empty Git repository in /Users/brianarmstrong/Desktop/GitHubRepoAssignment/.git/
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$ touch readme.md
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$ git add readme.md
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$ git commit -m "Sleepy, but trying to remember this"
+[master (root-commit) 1666970] Sleepy, but trying to remember this
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$ git remote add origin https://github.com/BrianArmstrong/GitHubRepoAssignment.git
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$ git push -u origin master
+Username for 'https://github.com': BrianArmstrong
+Password for 'https://BrianArmstrong@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/BrianArmstrong/GitHubRepoAssignment.git/'
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$ git push -u origin master
+Username for 'https://github.com': BrianArmstrong	
+Password for 'https://BrianArmstrong@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/BrianArmstrong/GitHubRepoAssignment.git/'
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$ git push -u origin master
+Username for 'https://github.com': BrianArmstrong
+Password for 'https://BrianArmstrong@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 226 bytes | 113.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/BrianArmstrong/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$ touch GitHubRepoAssignment.txt
+Brians-MacBook-Pro:GitHubRepoAssignment brianarmstrong$

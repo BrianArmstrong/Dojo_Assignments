@@ -1,0 +1,83 @@
+Brians-MacBook-Pro:~ brianarmstrong$ cd desktop
+Brians-MacBook-Pro:desktop brianarmstrong$ mkdir gittest
+Brians-MacBook-Pro:desktop brianarmstrong$ cd gittest
+Brians-MacBook-Pro:gittest brianarmstrong$ git init
+Initialized empty Git repository in /Users/brianarmstrong/Desktop/gittest/.git/
+Brians-MacBook-Pro:gittest brianarmstrong$ ls
+Brians-MacBook-Pro:gittest brianarmstrong$ touch index.html styles.css aboutMe.txt
+Brians-MacBook-Pro:gittest brianarmstrong$ get add . 
+-bash: get: command not found
+Brians-MacBook-Pro:gittest brianarmstrong$ git add .
+Brians-MacBook-Pro:gittest brianarmstrong$ git commit -m "You are going to get better, Brian"
+[master (root-commit) fb9dc8e] You are going to get better, Brian
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 aboutMe.txt
+ create mode 100644 index.html
+ create mode 100644 styles.css
+Brians-MacBook-Pro:gittest brianarmstrong$ get add aboutMe.txt
+-bash: get: command not found
+Brians-MacBook-Pro:gittest brianarmstrong$ git add aboutMe.txt
+Brians-MacBook-Pro:gittest brianarmstrong$ git commit -m "updated aboutMe"
+[master 836e216] updated aboutMe
+ 1 file changed, 1 insertion(+)
+Brians-MacBook-Pro:gittest brianarmstrong$ git add aboutMe.txt
+Brians-MacBook-Pro:gittest brianarmstrong$ git commit -m "added favorite movie to aboutMe"
+[master 476c5cf] added favorite movie to aboutMe
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+Brians-MacBook-Pro:gittest brianarmstrong$ git log
+commit 476c5cf88231cf6f2cb4ada7c80284e1dce860a4 (HEAD -> master)
+Author: Brian <mayak13@yahoo.com>
+Date:   Mon Dec 11 21:50:31 2017 -0800
+
+    added favorite movie to aboutMe
+
+commit 836e2163dfcd1a6e40bfe8ee06cf504ee1fa625e
+Author: Brian <mayak13@yahoo.com>
+Date:   Mon Dec 11 21:48:42 2017 -0800
+
+    updated aboutMe
+
+commit fb9dc8e07d9862055899f5627aaf760e67176c6b
+Author: Brian <mayak13@yahoo.com>
+Date:   Mon Dec 11 21:41:10 2017 -0800
+
+    You are going to get better, Brian
+Brians-MacBook-Pro:gittest brianarmstrong$ git revert -n HEAD
+Brians-MacBook-Pro:gittest brianarmstrong$ git log
+commit 476c5cf88231cf6f2cb4ada7c80284e1dce860a4 (HEAD -> master)
+Author: Brian <mayak13@yahoo.com>
+Date:   Mon Dec 11 21:50:31 2017 -0800
+
+    added favorite movie to aboutMe
+
+commit 836e2163dfcd1a6e40bfe8ee06cf504ee1fa625e
+Author: Brian <mayak13@yahoo.com>
+Date:   Mon Dec 11 21:48:42 2017 -0800
+
+    updated aboutMe
+
+commit fb9dc8e07d9862055899f5627aaf760e67176c6b
+Author: Brian <mayak13@yahoo.com>
+Date:   Mon Dec 11 21:41:10 2017 -0800
+
+    You are going to get better, Brian
+Brians-MacBook-Pro:gittest brianarmstrong$ git revert HEAD
+error: your local changes would be overwritten by revert.
+hint: commit your changes or stash them to proceed.
+fatal: revert failed
+Brians-MacBook-Pro:gittest brianarmstrong$ git status
+On branch master
+You are currently reverting commit 476c5cf.
+  (all conflicts fixed: run "git revert --continue")
+  (use "git revert --abort" to cancel the revert operation)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   aboutMe.txt
+
+Brians-MacBook-Pro:gittest brianarmstrong$ git add aboutMe.txt
+Brians-MacBook-Pro:gittest brianarmstrong$ git commit -m "I didn't screw up"
+[master ceee39d] I didn't screw up
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
