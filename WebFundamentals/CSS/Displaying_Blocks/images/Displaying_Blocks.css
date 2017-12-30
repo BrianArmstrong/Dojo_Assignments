@@ -1,0 +1,75 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper{
+	height: 640px;
+	width: 695px;
+	background-color: #d5d2ae;
+}
+#header{
+	height: 95px;
+	width: 695px;
+}
+#git_pic{
+	height: 50px;
+	width: 100px;
+	display: inline-block;
+	margin-left: 115px;
+	margin-top: 30px;
+}
+#header h1{
+	text-align: center;
+	margin-top: 45px;
+	display: inline-block;
+}
+#ninja_pic{
+	height: 48px;
+	width: 94px;
+	display: inline-block;
+	background-color: white;
+	margin-top: 30px;
+}
+#container{
+	height: 550px;
+	width: 675px;
+	margin-left: 24px;
+}
+.column{
+	height: 520px;
+	width: 123px;
+	display: inline-block;
+	margin-left: 2px;
+	vertical-align: top;
+}
+.cubeo{
+	height: 121px;
+	width: 119px;
+	border: 3px solid black;
+	background-color: #82b4ee;
+	margin-top: 4px;
+}
+.pico{
+	height: 102px;
+	width: 100px;
+	background-color: white;
+	margin: 9px;
+}
+.cubee{
+	height: 121px;
+	width: 119px;
+	border: 3px solid black;
+	background-color: #f3676f;
+	margin-top: 4px;
+}
+.pice{
+	height: 102px;
+	width: 100px;
+	margin: 9px;
+}
+
+
+
+
+
+
