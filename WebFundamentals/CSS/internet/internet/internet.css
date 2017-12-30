@@ -1,0 +1,223 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-style: sans-serif;
+}
+p, h1, h2, h3{
+	font-family: sans-serif;
+
+}
+#wrapper{
+	height: 623.58px;
+	width: 740px;
+	background: linear-gradient(#e6e6e6, #ffffff,#ffffff);
+	/*position: relative;*/ /*Not necessary because image is in the upper corner*/
+}
+#globe{
+	display: inline-block;
+	position: absolute;
+	margin-top: -5px;
+}
+h1{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 13px;
+	font-weight: 400;
+	text-indent: 80px;
+	font-size: 40px;
+}
+span{
+	color: #2867a0;
+}
+h2{
+	background: linear-gradient(#2867a0,#2867a0,#5183ac,#2867a0,#2867a0);
+	color: white;
+	padding: 10px;
+	font-weight: 400;
+	text-indent: 5px;
+}
+nav{
+	height: 428px;
+	width: 158px;
+	display: inline-block;
+}
+nav h4 span{
+	color: red;
+}
+nav h4{
+	font-size: 13px;
+	margin-top:15px;
+	margin-left: 2px;
+}
+nav p{
+	margin-top: 10px;
+	font-size: 11px;
+	font-weight: 600;
+}
+#nav_top{
+	height: 150px;
+	width: 158px;
+	border-bottom: 2px solid #bcbcbc;
+}
+#video_button{
+	background: linear-gradient(#558dbb, #2867a0);
+	color: white;
+	border: solid 1px black;
+	font-weight: 400;
+	font-size: 13px;
+	height: 27px;
+	width: 150px;
+	margin-left: 2px;
+	margin-top: 15px;
+	border-radius: 5px;
+	border: none;
+
+}
+#resource_button{
+	background: linear-gradient(#eca242,#ef7f00);
+	color: white;
+	border: solid 1px black;
+	font-weight: 400;
+	font-size: 13px;
+	height: 27px;
+	width: 150px;
+	margin-left: 2px;
+	margin-top: 3px;
+	border-radius: 5px;
+	border: none;
+}
+#matrix_photo{
+	background-image: url(ad_background.png);
+	height: 236px;
+	width: 158px;
+	margin-top: 20px;
+	position: relative;
+}
+#matrix_photo p{
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 15px;
+}
+#matrix_photo button{
+	height: 24px;
+	width: 135px;
+	background: linear-gradient(#75cfdf,#15c5df);
+	color: white;
+	border-radius: 5px;
+	bottom: 18px;
+	margin-left: 10px;
+}
+#ninja{
+	margin-left: 40px;
+}
+#info{
+	height: 300px;
+	width: 577px;
+	display: inline-block;
+	vertical-align: top;
+}
+header{
+	height: 47px;
+	width: 552px;
+	margin-left: 26px;
+	border-bottom: 2px solid #bcbcbc;
+	position: relative;
+}
+#house{
+	margin-top: 7px;
+	position: absolute;
+}
+header p{
+	padding-left: 24px;
+	padding-top: 5px;
+	font-size: 13px;
+	color: #2867a0;
+}
+#contact{
+	height: 55px;
+	width: 218px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#phone{
+	margin-top: 4px;
+	margin-left: 40px;
+}
+#contact p{
+	font-size: 7px;
+	color: black;
+}
+#contact h3{
+	font-size: 20px;
+	color: #00c0df;
+}
+#contact ul{
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 10px;
+}
+main{
+	height: 345px;
+	width: 537px;
+}
+main h4{
+	color: #2867a0;
+	margin-top: 5px;
+	margin-left: 26px;
+}
+main ul, ol{
+	margin-left: 55px;
+	margin-top: 3px;
+	font-size: 12px;
+	width: 497px;
+	/*list-style-position: inside or outside*/
+}
+main p{
+	font-size: 11px;
+	margin-top: 3px;
+	margin-left: 26px;
+}
+main span{
+	color: #09a2b8;
+}
+#client_server{
+	margin-left: 195px;
+	margin-top: 8px;
+}
+#advert{
+	height: 95px;
+	width: 539px;
+	border: 3px solid #0085e0;
+	border-bottom: 0px;
+	margin-left: 30px;
+
+}
+#medal_photo{
+	margin: 8px;
+	display: inline-block;
+}
+#advert_contain{
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+#advert h4{
+	color: #2867a0;
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 8px;
+}
+#advert p{
+	margin-left: 10px;
+	font-size: 11px;
+	margin-top: 4px;
+	vertical-align: top;
+	display: inline-block;
+	width: 413px;
+}
