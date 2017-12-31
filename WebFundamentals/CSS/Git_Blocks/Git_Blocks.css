@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: courier;
+}
+#wrapper{
+	height: 735px;
+	width: 972px;
+	margin-left: 65px;
+	padding-top: 10px;
+	background-color: #dddfd4;
+}
+#header{
+	height: 64px;
+	width: 942px;
+	margin-left: 16px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	background-color: #38b0ad;
+	position: relative;
+}
+#header a{
+	display: inline-block;
+	font-size: 14px;
+	vertical-align: top;
+	margin-top: 26px;
+	color: white;
+}
+#github_icon{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	margin: 10px;
+}
+h1{
+	height: 40px;
+	margin: 12px;
+	padding-left: 48px;
+	font-weight: 5;
+	display: inline-block;
+	background-color: #38b0ad;
+}
+#container{
+	height: 550px;
+	width: 942px;
+	margin: 15px;
+	background-color: #fbe691;
+}
+h3{
+	margin: 11px;
+	color: #dddfd4;
+}
+p{
+	font-size: 14px;
+	margin-left: 22px;
+	margin-top: 9px;
+	color: #dddfd4;
+}
+#left_contain{
+	height: 519px;
+	width: 235px;
+	margin: 15px;
+	padding-right: 17px;
+	display: inline-block;
+	background-color: #153f43;
+}
+#right_contain{
+	height: 519px;
+	width: 620px;
+	vertical-align: top;
+	display: inline-block;
+	margin: 17px;
+	margin-left: 13px;
+}
+span{
+	color: #4bd8c8;
+}
+h4{
+	margin-left: 11px;
+	margin-top: 6px;
+	color: #dddfd4;
+}
+.topbox{
+	height: 172px;
+	width: 167px;
+	padding-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 22px;
+	background-color: #153f43;
+}
+#right_center{
+	margin-top: 28px; 
+}
+.centerbox{
+	height: 131px;
+	width: 270px;
+	padding-bottom: 14px;
+	display: inline-block;
+	margin-bottom: -6px;
+	margin-right: 25px;
+	padding-right: 10px;
+	background-color: #153f43;
+}
+.bottombox{
+	height: 144px;
+	width: 586px;
+	margin-top: 34px;
+	padding-right: 10px;
+	background-color: #153f43;
+}
+#footer{
+	height: 53px;
+	width: 942px;
+	margin-top: -7px;
+	margin-left: 14px;
+	padding-top: 25px;
+	background-color: #38b0ad;
+}
+#footer p{
+	text-align: center;
+	color: black;
+
+}
