@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Chance</title>
+	<script type="text/javascript">
+		function Slot(quarters){
+			var winNumber = 13;
+			while(quarters>0){
+				if(winNumber === ((Math.trunc(Math.random()*100)+1))){
+					quarters = quarters + (Math.floor(Math.random()*50)+51);
+					console.log(quarters);
+				}
+				quarters = quarters -1;
+				// console.log(quarters);
+			}
+		}
+		Slot(1000);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+<!-- math.trunc(math.random()*50)+51 //quarter payout
+math.trunc(math.random()*50) || math.trunc(math.random()*50)+51  //chance to win
+math.trunc(math.random()+1)+100
+
+function Slot(quarter(s))
+var quarters
+var win = 13
+Math.floor((Math.random() *100))+1; 1-100
+math.floor((math.random()*50)+51; 50-100 
+ -->
