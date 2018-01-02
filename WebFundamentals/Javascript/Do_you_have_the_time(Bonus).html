@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do you have the time (Bonus)</title>
+	<script type="text/javascript">
+	
+	var HOUR = 7;
+	var MINUTE = 15;
+	var PERIOD = "PM";
+	if(PERIOD === "AM"){
+		if(MINUTE<30){
+			if(MINUTE === 15){
+				console.log("It's a quarter past "+HOUR+ " in the morning")
+			}
+			else{
+				console.log("It's just after "+(HOUR)+ " in the morning")
+			}
+		}
+		else{ //(MINUTES>30)
+
+			if(MINUTE === 45){
+				console.log("It's a quarter 'til "+(HOUR+1)+" in the morning")
+
+			}
+			else{
+				console.log("It's just after "+(HOUR+1)+ " in the morning")
+			}
+		}	
+	}
+	else{
+		if(MINUTE<30){
+			if(MINUTE === 15){
+				console.log("I's a quarter past "+HOUR+ " in the evening")
+			}
+			else{
+				console.log("It's just after "+(HOUR)+ " in the evening")
+			}	
+		}
+		else{
+
+			if(MINUTE === 45){
+				console.log("It's a quarter 'til "+(HOUR+1)+" in the evening")
+			}
+			else{
+				console.log("It's just after "+(HOUR+1)+ " in the evening")
+			}
+		}
+	}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
