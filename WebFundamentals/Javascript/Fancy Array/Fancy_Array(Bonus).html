@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fancy Array(Bonus)</title>
+	<script type="text/javascript">
+		function fancy(arr, symbol, reverse){
+			if(reverse===false){
+				for(var i = 0; i < arr.length; i++){
+					console.log("" + i + symbol + arr[i] + "")
+				}
+			}
+			else{
+				for(var i = arr.length-1; i >= 0; i--){
+					console.log("" + arr[i] + symbol + i + "")
+				}
+			}
+		}
+		fancy(["play", "kill", "fun", "ball"], "=>", true);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
