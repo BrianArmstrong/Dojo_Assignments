@@ -10,10 +10,10 @@
 			$("#click_me").click(function(){
 			})
 			$("#hide_button").click(function(){
-				$("#ptag").hide();
+				$("#hide/show").hide();
 			})
 			$("#show_button").click(function(){
-				$("#ptag").show();
+				$("#hide/show").show();
 			})
 			$("#toggle_button").click(function(){
 				$("#toggle_text").toggle();
@@ -63,7 +63,7 @@
 			})
 
 			var ele = $("#data")
-			$.data(ele, "name", "BRIAN")
+			$.data(ele, "name", "BRIAN ")
 			$('#data_button').click(function(){
 				var value = $.data(ele,"name")
 				$("#data").after(value)
@@ -89,7 +89,7 @@
 		<h1>.hide/.show</h1>
 		<button id="hide_button">hide</button>
 		<button id="show_button">show</button>
-		<p id="ptag">Hide/Show the matched elements.</p>
+		<p id="hide/show">Hide/Show the matched elements.</p>
 	</div>
 	<div class="box">
 		<h1>.toggle</h1>
@@ -103,7 +103,7 @@
 		<p id="slide_down">Display the matched elements with a sliding motion.</p>
 	</div>
 	<div class="box">
-		<h1>slideToggle</h1>
+		<h1>.slideToggle</h1>
 		<button id="slide_Toggle_button">slide Toggle</button>
 		<p id="slide_toggle">Display or hide the matched elements with a sliding motion.</p>
 	</div>
@@ -136,7 +136,7 @@
 		<p id="htmlp">Get the HTML contents of the first element in the set of matched elements or set the HTML contents of </p></div>
 	</div>
 	<div class="box">
-		<h1>attr</h1>
+		<h1>.attr</h1>
 		<p>Retreives or set an attribute of an element</p>
 		<p class="green" id="attr">I am a p tag with the class of green. Class=</p>
 		<button class="attr">Click to retreive the class</button>
