@@ -1,0 +1,32 @@
+* pip install Django
+
+	pip is a Python package manager that installs Django, a python Web framework, for Python. Django contains everything that you need to build an app.
+
+* pip list
+
+	lists installed packages, including editables and are listed in a case-insensitive order. 
+
+* pip install Django (agian)
+
+	stated that the requirement had already been satisfied because it had already been installed.
+
+* pip freeze
+
+	lists all the items required within pip, excluding editables, but pip list lists everything including editables.
+
+* (cd ~/Desktop), then run pip freeze > requirements.txt
+
+	created a requirements.txt that contained all of the pip freeze elements. when I "ls" I saw everything on my desktop. 
+
+* pip uninstall Django
+
+	created a long-ass list of django frameworks that are going to be uninstalled, which is followed by the question "Proceed (y/n)?" to which I replied "y" and django was "Sucessfully uninstalled"
+
+* pip show Django
+
+	as expected, nothing appeared because I "Sucessfully uninstalled" django
+
+* pip search Flask
+
+	essentially lists all items within pip that contain the word "Flask"
+
