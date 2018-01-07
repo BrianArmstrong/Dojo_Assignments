@@ -1,0 +1,32 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.box, .htmlbox{
+border: 2px solid black;
+width: 800px;
+}
+h1{
+background-color: lightblue;
+border-bottom: 1px solid black;
+text-align: center;
+}
+p{
+display: inline-block;
+margin-left: 20px;
+}
+button{
+padding: 10px;
+margin: 10px;
+margin-left: 10px;
+}
+.left{
+width: 200px;
+height: 80px;
+border-right: 2px solid black;
+display: inline-block;
+}
+#htmlp{
+display: inline-block;
+vertical-align: top;
+}

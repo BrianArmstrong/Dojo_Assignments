@@ -1,0 +1,38 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper{
+	height: 600px;
+	width: 600px;
+}
+table{
+	width: 590px;
+	height: 50px;
+	border: 2px solid black;
+}
+th{
+	font-size: 22px;
+}
+#info_box{
+	height: 400px;
+	width: 350px;
+	margin-top: 50px;
+	position: relative;
+}
+h1{
+	border-bottom: 2px solid black;
+}
+p{
+	margin-top: 15px;
+	text-align: right;
+	font-size: 20px;
+}
+button{
+	position: absolute;
+	right: 0px;
+	font-size: 13px;
+	background: linear-gradient(white, #d5d5d5);
+	margin-top: 25px;
+	border-radius: 5px;
+}
