@@ -6,4 +6,5 @@ def main():
 @app.route('/projects')
 def main2():
 	return render_template("projects.html")
+# @app.route('/about')
 app.run(debug=True)
